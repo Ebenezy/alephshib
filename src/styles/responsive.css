@@ -1,0 +1,179 @@
+@media only screen and (min-width: 280px) and (max-width: 767px) {
+    .ca {
+        font-size: 10px;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        align-items: start !important;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    .launchapp-btn {
+        margin-top: 0.7rem;
+    }
+
+    .hero-section {
+        padding: 0.5rem 0 3rem;
+        text-align: center;
+        height: 100%;
+    }
+
+    .hero-inner {
+        padding: 1rem 0 1rem;
+    }
+
+    .hero-title {
+        font-size: 45px;
+        line-height: 45px;
+    }
+
+    .hero-text {
+        font-size: 15px;
+    }
+
+    .btns-mobile-center {
+        justify-content: center;
+    }
+
+    .buy-now-btn {
+        width: 140px;
+        height: 55px;
+        font-size: 14px;
+    }
+
+    .landing-hero-img {
+        text-align: center;
+        /* display: none; */
+    }
+
+    .landing-hero-img img {
+        width: 170px;
+    }
+
+    .brands img {
+        height: 15px;
+        margin: 0.5rem 0.35rem;
+    }
+
+    .hero-gradient-bg1 img {
+        border-radius: 39px 39px 0 0;
+    }
+
+    /* aabout section  */
+    .about-section {
+        text-align: center;
+    }
+
+    .about-section h2,
+    .section-title {
+        font-size: 25px;
+        line-height: 30px;
+        padding-bottom: 1.5rem;
+    }
+
+    .about-section h4 {
+        font-size: 21px;
+    }
+
+    .about-section p,
+    ul li {
+        font-size: 15px;
+    }
+
+    .hero-gradient-1 {
+        padding: 1rem 0.5rem 0;
+    }
+
+    .app-subtitle {
+        font-size: 15px;
+    }
+
+    .app-benefits h1 {
+        font-size: 23px;
+    }
+
+    .app-benefits p {
+        font-size: 16px;
+    }
+
+    #first {
+        order: 2;
+    }
+
+    #second {
+        order: 1;
+    }
+
+    .section-subtitle {
+        font-size: 16px;
+    }
+
+    .crowdbux-future-text1 {
+        font-size: 30px;
+    }
+
+    .crowdbux-future-title {
+        font-size: 35px;
+        margin-bottom: 1rem;
+    }
+
+    .hero-gradient-bg5 {
+        display: none;
+    }
+
+    .hero-gradient-bg4 img {
+        width: 240px;
+        right: 50px;
+        left: auto;
+    }
+
+    .download-store img {
+        width: 130px;
+    }
+
+    .metaverse-img {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 996px) {
+    .hero-title {
+        font-size: 43px;
+    }
+
+    .hero-subtitle {
+        font-size: 25px;
+    }
+
+    .hero-text {
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+    .hero-title {
+        font-size: 70px;
+        line-height: 60px;
+    }
+
+    .hero-subtitle {
+        font-size: 20px;
+    }
+
+    .hero-text {
+        font-size: 15px;
+    }
+
+    .crowdbux-future-text1 {
+        font-size: 30px;
+    }
+
+    .crowdbux-future-title {
+        font-size: 40px;
+    }
+
+}
