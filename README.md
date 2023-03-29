@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Alephshib Memecoin
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Aleph shib project aims to introduce individuals to the Aleph Zero ecosystem through its fun and friendly mascot, Alephshib! (https://www.alephshib.com).
 
 ## Available Scripts
 
