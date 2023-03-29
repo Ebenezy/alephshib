@@ -12,7 +12,7 @@ const Footer = () => {
                         <a href="http://t.me/alephshib" target="_blank" rel="noreferrer">
                             <div className="circle">
                                 <img src={telegram}
-                                    alt="telegram"
+                                    alt="alephshib telegram"
                                 />
                             </div>
                         </a>
@@ -20,7 +20,7 @@ const Footer = () => {
                             <div className="circle">
                                 <img
                                     src={twitter}
-                                    alt="twitter"
+                                    alt="alephshib twitter"
                                 />
                             </div>
                         </a>

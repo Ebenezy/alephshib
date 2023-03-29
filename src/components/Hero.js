@@ -39,11 +39,10 @@ const Hero = () => {
                         </Col>
                         <Col md={5} id='second'>
                             <div className="landing-hero-img" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
-                                <img src={alephshib} className='' alt='logo' />
+                                <img src={alephshib} alt='logo' />
                             </div>
                         </Col>
                     </Row>
-                    {/* <HeroGradientBg /> */}
                 </Container>
             </div>
             <div className='d-flex justify-content-center brands mb-3'>
