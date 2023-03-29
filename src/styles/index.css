@@ -149,6 +149,17 @@ a:focus {
   color: #150D25;
   letter-spacing: 0;
   text-decoration: none;
+  animation: shadow-pulse 1s infinite;
+}
+
+@keyframes shadow-pulse {
+  0% {
+    box-shadow: 0 0 0 0px rgba(255, 255, 255, 0.3);
+  }
+
+  100% {
+    box-shadow: 0 0 0 15px rgba(255, 255, 255, 0);
+  }
 }
 
 .brands img {
@@ -225,6 +236,10 @@ ul li {
   border-radius: 30px;
   width: 100%;
   max-width: 500px;
+}
+
+.token-image:hover {
+  box-shadow: rgba(149, 157, 165, 0.5) 0px 8px 24px;
 }
 
 .token-image img:hover {
@@ -361,6 +376,10 @@ ul li {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
+.section-card:hover {
+  box-shadow: rgba(203, 221, 240, 0.5) 0px 8px 24px;
+}
+
 .section-card ul {
   padding-left: 20px;
 }
@@ -377,6 +396,44 @@ footer {
   letter-spacing: 0;
   text-align: center;
   padding: 1rem;
+}
+
+.circle {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: rgba(21,
+      13,
+      37,
+      1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.circle:hover {
+  background: rgba(21,
+      13,
+      37,
+      0.65);
+}
+
+.circle img {
+  width: 21px;
+}
+
+.mail {
+  text-decoration: none;
+  font-family: Poppins-Medium;
+  font-size: 15px;
+  color: #150D25;
+  letter-spacing: 0;
+}
+
+.mail:hover {
+  text-decoration: none;
+  color: #2098D1;
 }
 
 /* Back Pulse */
