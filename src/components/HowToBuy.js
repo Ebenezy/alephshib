@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-// import YoutubeEmbed from './YoutubeEmbed'
+import YoutubeEmbed from './YoutubeEmbed'
 
 const HowToBuy = () => {
     return (
@@ -8,8 +8,8 @@ const HowToBuy = () => {
             <Container>
                 <div className='text-center'>
                     <h2 className='section-title'>How to Buy</h2>
-                    <h4>Coming soon...</h4>
-                    {/* <YoutubeEmbed embedId="ajGJ5Ctm64A" /> */}
+                    {/* <h4>Coming soon...</h4> */}
+                    <YoutubeEmbed embedId="He1DnHi1Nq4" />
                 </div>
             </Container>
 

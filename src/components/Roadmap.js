@@ -66,7 +66,7 @@ const Roadmap = () => {
                                     <li className='text-white'>Lottery Platform</li>
                                     <li className='text-white'>Coinmarketcap Listing </li>
                                     <li className='text-white'>Coingecko Listing</li>
-                                    <li className='text-white'>Lending and borrowing platform</li>
+                                    <li className='text-white'>NFT Lending and borrowing platform</li>
                                 </ul>
                             </div>
                         </div>

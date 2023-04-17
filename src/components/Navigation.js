@@ -10,7 +10,7 @@ const Navigation = () => {
     return (
         <div className='w-100'>
             <div className="ca">
-                <div>CA: coming soon...</div>
+                <div>CA: 5DhKuX1xTAho9J8YQiYYQXka2VwJH5XVcvmArFttAT9uXh9m</div>
             </div>
             <Navbar expand="lg" variant="dark" className='pt-4'>
                 <Container>

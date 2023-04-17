@@ -18,13 +18,7 @@ const Tokenomics = () => {
                     <Col md={8}>
                         <div className='d-flex justify-content-center align-items-center h-100'>
                             <Row>
-                                <Col md={4}>
-                                    <div className='hero-gradient-1'>
-                                        <h4>2%</h4>
-                                        <p>Max Wallet</p>
-                                    </div>
-                                </Col>
-                                <Col md={2}>
+                                <Col md={3}>
                                     <div className='hero-gradient-1'>
                                         <h4>6%</h4>
                                         <p>Tax</p>
@@ -36,6 +30,7 @@ const Tokenomics = () => {
                                         <p>Total Supply</p>
                                     </div>
                                 </Col>
+                                <Col md={3}></Col>
                             </Row>
                         </div>
                     </Col>

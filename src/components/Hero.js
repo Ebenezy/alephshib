@@ -3,6 +3,7 @@ import Navigation from './Navigation'
 import { Container, Row, Col } from 'react-bootstrap'
 import alephshib from '../images/alephshib.png'
 import alephzero from '../images/aleph-zero-logo.svg'
+// import artzero from '../images/alephshib-artzero.svg'
 // import dextools from '../images/dextools.webp'
 // import cmc from '../images/cmc.webp'
 // import coingecko from '../images/coingecko.webp'
@@ -24,9 +25,9 @@ const Hero = () => {
                                         <Col md={9}>
                                             <p className="hero-text">The Aleph shib project aims to introduce individuals to the Aleph Zero ecosystem through its fun and friendly mascot, Alephshib!</p>
                                             <div className='d-flex pt-3 btns-mobile-center'>
-                                                <div className="buy-now-btn hvr-back-pulse me-3">
+                                                <a href='https://andromedaswap.org/swap' target='_blank' rel="noreferrer" className="buy-now-btn hvr-back-pulse me-3">
                                                     Buy Alephshib
-                                                </div>
+                                                </a>
                                                 <div className="buy-now-btn hvr-back-pulse">
                                                     View Chart
                                                 </div>
@@ -46,7 +47,8 @@ const Hero = () => {
                 </Container>
             </div>
             <div className='d-flex justify-content-center brands mb-3'>
-                <img src={alephzero} className='' alt='logo' />
+                <img src={alephzero} className='' alt='azero' />
+                {/* <img src={artzero} className='' alt='artzero' /> */}
                 {/* <img src={dextools} className='' alt='logo' /> */}
                 {/* <img src={cmc} className='' alt='logo' /> */}
                 {/* <img src={coingecko} className='' alt='logo' /> */}
